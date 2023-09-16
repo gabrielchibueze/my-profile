@@ -3,7 +3,7 @@ import Footer from './Footer.jsx'
 import Middle from './Middle.jsx'
 import Top from './Top.jsx'
 import gabbyPhoto from '/images/gabby-photo.jpeg'
-import "./app.css"
+import "./App.css"
 
 
 
