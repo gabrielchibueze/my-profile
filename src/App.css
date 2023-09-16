@@ -1,0 +1,103 @@
+html, body {
+  margin: 0px;
+  font-family: sans-serif;
+
+}
+.mainContent {
+  border: none;
+  border-radius: 10px;
+  background: #1A1B21;
+
+}
+img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.top {
+  text-align: center;
+}
+.top > h2 {
+  font-size: 30px;
+  color: white;
+  margin: 15px 0px 5px 0px;
+}
+.top > h3 {
+  color: #F3BF99;
+  font-size: 14px;
+}
+
+.top >p {
+  margin: 5px 0px 5px 0px;
+  font-size: 12px;
+
+}
+.linkedIn {
+  background-color: #5093E2;
+  margin-left: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 25px 0px 25px;
+  width: 280px;
+}
+button {
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+  
+.middle {
+  margin: 5px 15px 40px 25px;
+}
+.middle > h4 {
+  color: #F5F5F5;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 25px 0px 10px 0px;
+}
+.middle > p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-size: 12px;
+}
+
+.fa-brands  {
+  width: 15px;
+  background: #918E9B;
+  padding: 3px 7px 3px 5px;
+  border-radius: 4px;
+  color: black;
+}
+.fa-linkedin-in {
+  background-color: white;
+}
+
+.fa-envelope, .fa-linkedin-in  {
+  margin-right: 10px;
+  font-size: 12px;
+  padding: 2px
+}
+.footer{
+  background-color: #161619;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer > a {
+  font-size: 20px;
+  margin: 10px;
+}
+
+@media (min-width: 499px) {
+  img {
+    /* height: 40vh; */
+  }
+}
